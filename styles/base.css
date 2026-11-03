@@ -1,0 +1,92 @@
+/* Base Styles & Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--line-height-body);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accessibility Focus Ring */
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}
+
+/* Typography defaults */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  color: var(--color-ink);
+}
+
+p {
+  max-width: var(--width-prose-max);
+}
+
+a {
+  color: var(--color-brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--color-brand-hover);
+}
+
+button {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Layout container */
+.container {
+  width: 100%;
+  max-width: var(--width-container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Prefers-reduced-motion: disable all transitions and animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

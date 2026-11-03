@@ -1,0 +1,19 @@
+{
+  "id": "[scheme-id]",
+  "name": "[Scheme Name]",
+  "body": "[Ministry or Administrative Body]",
+  "official_url": "https://[official-portal-url.gov.in]",
+  "last_verified": "YYYY-MM-DD",
+  "summary": "[One plain-English sentence summarizing the benefit.]",
+  "criteria": [
+    {
+      "field": "[field_name]",
+      "op": "[equals | in | lte | gte | is_true]",
+      "value": "[expected_value]",
+      "text": "[Plain words explanation of condition from official source]"
+    }
+  ],
+  "documents": [
+    "[Document name from official source]"
+  ]
+}

@@ -1,0 +1,73 @@
+/* DESIGN.md Tokens */
+:root {
+  /* Colours - Base */
+  --color-paper: #F5EFE4;
+  --color-card: #FFFBF4;
+  --color-ink: #1E2B24;
+  --color-ink-soft: #5B6358;
+  --color-hairline: #D9CFBD;
+  --color-brand: #1F5B4A;
+  --color-brand-hover: #174537;
+  --color-brand-tint: #EAF2EE;
+  --color-accent: #C0701F;
+
+  /* Colours - Status */
+  --color-status-eligible: #1F5B4A;
+  --color-status-check: #8A5A12;
+  --color-status-ineligible: #6B4A4A;
+
+  /* Typography Families */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Figtree', system-ui, sans-serif;
+
+  /* Typography Sizes & Line Heights */
+  --font-size-display-mobile: 2.5rem;
+  --font-size-display-desktop: 3.25rem;
+  --line-height-display: 1.05;
+
+  --font-size-question: 1.5rem;
+  --line-height-question: 1.25;
+
+  --font-size-scheme: 1.25rem;
+  --line-height-scheme: 1.3;
+
+  --font-size-body: 1.0625rem; /* 17px */
+  --line-height-body: 1.6;
+
+  --font-size-label: 0.75rem;
+  --letter-spacing-label: 0.08em;
+
+  --font-size-small: 0.875rem; /* 14px */
+  --line-height-small: 1.4;
+
+  /* Typography Weights */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* Spacing Scale (Use only 4, 8, 12, 16, 24, 32, 48, 72) */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-72: 72px;
+
+  /* Radii */
+  --radius-none: 0;
+  --radius-card: 12px;
+  --radius-pill: 999px;
+
+  /* Widths */
+  --width-prose-max: 60ch;
+  --width-container-max: 680px;
+
+  /* Transitions */
+  --transition-card: opacity 200ms ease, transform 200ms ease;
+  --transition-ledger: opacity 220ms ease, transform 220ms ease;
+  --transition-progress: width 300ms ease;
+  --transition-check: transform 150ms ease;
+}
+
