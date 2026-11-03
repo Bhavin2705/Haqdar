@@ -1,0 +1,323 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN",
+    "body": "Ministry of Agriculture and Farmers Welfare",
+    "official_url": "https://pmkisan.gov.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides Rs 6,000 every year directly into bank accounts of families that own cultivable farmland.",
+    "criteria": [
+      {
+        "field": "occupation",
+        "op": "equals",
+        "value": "farmer",
+        "text": "Applicant must be a farmer"
+      },
+      {
+        "field": "land",
+        "op": "equals",
+        "value": "yes",
+        "text": "Household must own cultivable agricultural farmland"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Land ownership record (Khasra or Khatauni or Land passbook)",
+      "Bank passbook linked with Aadhaar"
+    ]
+  },
+  {
+    "id": "pm-ujjwala",
+    "name": "PM Ujjwala Yojana",
+    "body": "Ministry of Petroleum and Natural Gas",
+    "official_url": "https://www.pmuy.gov.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides a free LPG gas cylinder connection to adult women from low-income households.",
+    "criteria": [
+      {
+        "field": "gender",
+        "op": "equals",
+        "value": "female",
+        "text": "Only for women applicants"
+      },
+      {
+        "field": "age_band",
+        "op": "in",
+        "value": [
+          "18_to_59",
+          "60_and_over"
+        ],
+        "text": "Applicant must be 18 years of age or older"
+      },
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 250000,
+        "text": "Household income must be Rs 2,50,000 or below"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Ration card (BPL or Priority household card)",
+      "Bank passbook linked with Aadhaar"
+    ]
+  },
+  {
+    "id": "mgnrega",
+    "name": "MGNREGA (Rural Work Guarantee)",
+    "body": "Ministry of Rural Development",
+    "official_url": "https://nrega.nic.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Guarantees 100 days of paid manual work each year for adult members living in village areas.",
+    "criteria": [
+      {
+        "field": "area",
+        "op": "equals",
+        "value": "rural",
+        "text": "Only for households living in a rural village area"
+      },
+      {
+        "field": "age_band",
+        "op": "in",
+        "value": [
+          "18_to_59",
+          "60_and_over"
+        ],
+        "text": "Applicant must be 18 years of age or older"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "MGNREGA Job Card (or Gram Panchayat registration form)",
+      "Bank or Post Office passbook"
+    ]
+  },
+  {
+    "id": "pm-jay",
+    "name": "Ayushman Bharat (PM-JAY)",
+    "body": "National Health Authority",
+    "official_url": "https://pmjay.gov.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides free hospital medical treatment up to Rs 5 lakh per year for your entire family.",
+    "criteria": [
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 250000,
+        "text": "Household income must be Rs 2,50,000 or below"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Ration card or family identity card"
+    ]
+  },
+  {
+    "id": "pmay-g",
+    "name": "PM Awas Yojana (Gramin)",
+    "body": "Ministry of Rural Development",
+    "official_url": "https://pmayg.nic.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides money from the government to build a permanent brick house for poor families in villages.",
+    "criteria": [
+      {
+        "field": "area",
+        "op": "equals",
+        "value": "rural",
+        "text": "Only for households located in a rural village area"
+      },
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 100000,
+        "text": "Household annual income must be Rs 1,00,000 or below"
+      },
+      {
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "labourer",
+          "farmer",
+          "not_working",
+          "other"
+        ],
+        "text": "Applicant must not be a salaried employee"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "MGNREGA Job Card",
+      "Bank passbook linked with Aadhaar",
+      "Declaration confirming your family does not own a brick house"
+    ]
+  },
+  {
+    "id": "pm-vishwakarma",
+    "name": "PM Vishwakarma Yojana",
+    "body": "Ministry of Micro, Small and Medium Enterprises",
+    "official_url": "https://pmvishwakarma.gov.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides free skill training, tool kit money of Rs 15,000, and low-interest loans for craftspeople and artisans.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "in",
+        "value": [
+          "18_to_59",
+          "60_and_over"
+        ],
+        "text": "Applicant must be 18 years of age or older"
+      },
+      {
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "self_employed",
+          "other"
+        ],
+        "text": "Only for traditional artisans, craftspeople, and independent workers"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Bank passbook linked with Aadhaar",
+      "Self-declaration or certificate of traditional artisan trade"
+    ]
+  },
+  {
+    "id": "pm-mudra",
+    "name": "PM Mudra Yojana",
+    "body": "Department of Financial Services",
+    "official_url": "https://www.jansamarth.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides bank loans up to Rs 10 lakh to start, run, or expand a small shop, trade, or local business.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "in",
+        "value": [
+          "18_to_59",
+          "60_and_over"
+        ],
+        "text": "Applicant must be 18 years of age or older"
+      },
+      {
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "self_employed",
+          "other"
+        ],
+        "text": "Only for small shopkeepers, traders, and self-employed people"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Voter ID or PAN card",
+      "Bank account statement or passbook",
+      "Shop or business address proof"
+    ]
+  },
+  {
+    "id": "nsap-ignoaps",
+    "name": "National Old Age Pension (IGNOAPS)",
+    "body": "Ministry of Rural Development",
+    "official_url": "https://nsap.nic.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides a monthly government pension for senior citizens aged 60 and older from low-income families.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "equals",
+        "value": "60_and_over",
+        "text": "Applicant must be 60 years of age or older"
+      },
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 100000,
+        "text": "Household annual income must be Rs 1,00,000 or below"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Age proof document (Voter ID, School certificate, or Doctor age slip)",
+      "BPL card or Low-income certificate",
+      "Bank passbook linked with Aadhaar"
+    ]
+  },
+  {
+    "id": "pm-sym",
+    "name": "PM Shram Yogi Maan-dhan",
+    "body": "Ministry of Labour and Employment",
+    "official_url": "https://www.maandhan.in/",
+    "last_verified": "2026-11-03",
+    "summary": "Provides an assured monthly pension of Rs 3,000 after age 60 for unorganised daily wage workers.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "equals",
+        "value": "18_to_59",
+        "text": "Entry age must be between 18 and 40 years of age"
+      },
+      {
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "labourer",
+          "self_employed",
+          "other"
+        ],
+        "text": "Only for daily wage labourers, unorganised workers, and street workers"
+      },
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 250000,
+        "text": "Monthly income must be Rs 15,000 or below (annual Rs 2,50,000 or below)"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Savings Bank or Jan Dhan account passbook"
+    ]
+  },
+  {
+    "id": "atal-pension",
+    "name": "Atal Pension Yojana",
+    "body": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "official_url": "https://enps.nsdl.com/",
+    "last_verified": "2026-11-03",
+    "summary": "Government-backed pension scheme providing Rs 1,000 to Rs 5,000 every month after you turn 60.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "equals",
+        "value": "18_to_59",
+        "text": "Must join between 18 and 40 years of age"
+      },
+      {
+        "field": "occupation",
+        "op": "in",
+        "value": [
+          "farmer",
+          "labourer",
+          "self_employed",
+          "not_working",
+          "other"
+        ],
+        "text": "Applicant must not be a formal salaried employee covered by EPF"
+      },
+      {
+        "field": "income",
+        "op": "lte",
+        "value": 800000,
+        "text": "Income must be within non-taxpayer brackets"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Savings Bank account passbook"
+    ]
+  }
+]

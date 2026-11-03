@@ -1,0 +1,23 @@
+[
+  {
+    "id": "stale-scheme",
+    "name": "Stale Verification Welfare Scheme",
+    "body": "Ministry of Social Justice and Empowerment",
+    "official_url": "https://socialjustice.gov.in/stale-scheme",
+    "last_verified": "2024-01-01",
+    "summary": "Financial assistance for vulnerable households under outdated criteria guidelines.",
+    "criteria": [
+      {
+        "field": "age_band",
+        "op": "equals",
+        "value": "18_to_59",
+        "text": "Applicant must be aged 18 to 59"
+      }
+    ],
+    "documents": [
+      "Aadhaar card",
+      "Income certificate"
+    ]
+  }
+]
+
